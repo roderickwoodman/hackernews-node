@@ -6,7 +6,6 @@ const User = require('./resolvers/User')
 const Link = require('./resolvers/Link')
 
 // 1
-let idCount = links.length
 const resolvers = {
   Query,
   Mutation,
